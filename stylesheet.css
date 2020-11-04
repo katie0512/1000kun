@@ -1,0 +1,142 @@
+
+body{
+  background-color:#d7cebb;
+ margin:0px auto;
+ padding:0px;
+}
+
+
+header{
+  background-color: tan;
+
+}
+.container{
+  padding-top:15px;
+  width:100%;
+}
+.shopname{
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Oswald', sans-serif;
+  float:center;
+}
+.header-right {
+  text-align: center;
+  padding-top:5px;
+  padding-bottom:30px;
+}
+
+.header-logo{
+  padding-left:6px;
+}
+.header-right a{
+  text-decoration: none;
+  color:#6E2C00;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing:3px;
+  padding-left:15px;
+}
+
+.img_cafe{
+  position:relative;
+}
+
+
+.introduce h1{
+  position:absolute;
+  top: 70%;
+  left: 50%;
+  text-align: center;
+  color: white;
+ font-family: 'Oswald', sans-serif;
+ -ms-transform: translate(-50%,-50%);
+ -webkit-transform: translate(-50%,-50%);
+ transform: translate(-50%,-50%);
+ margin:0;
+ padding:0;
+}
+
+.introduce p{
+  position:absolute;
+  text-align: center;
+  color: white;
+  top: 80%;
+  left:50%;
+  font-size:20px;
+ font-family: 'Oswald', sans-serif;
+ -ms-transform: translate(-50%,-50%);
+ -webkit-transform: translate(-50%,-50%);
+ transform: translate(-50%,-50%);
+}
+
+.location{
+  text-align: center;
+  color: #7b6b7f;
+ border-bottom: solid 4px tan;
+ font-family: 'Lato', sans-serif;
+}
+.location h2{
+  border-top: solid 4px tan;
+}
+
+
+.img_food{
+  object-fit: cover;
+  width:250px;
+  height:250px;
+}
+
+.img_food2{
+  object-fit: cover;
+  width:250px;
+  height:250px;
+}
+
+.img_latte{
+  object-fit: cover;
+  width:250px;
+  height:250px;
+}
+.food{
+  text-align: center;
+}
+.menu_img{
+  display: inline-block;
+  width;100px;
+  padding-top:12px;
+}
+
+.menu_img p{
+  font-family: 'Lato', sans-serif;
+  color:#6E2C00;
+}
+
+.links{
+  padding-top:50px;
+  text-align: center;
+  display:flex;
+  border-top: solid 4px tan;
+}
+.contact a{
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  padding-right:8px;
+  color:#85241b;
+
+}
+.facebook a{
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  padding-right:8px;
+  color:#85241b;
+}
+.instagram a{
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  padding-right:8px;
+  color:#85241b;
+}
+
+*{
+  box-sizing:border-box;
+}
